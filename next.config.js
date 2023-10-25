@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/random-tarot'
+  basePath: '/'
 }
 
 module.exports = nextConfig
