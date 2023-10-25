@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/'
+  basePath: 'https://random-tarot-chi.vercel.app/'
 }
 
 module.exports = nextConfig
