@@ -37,7 +37,7 @@ export default function SpreadInfo({
     confirmButton = (
       <Link href={{ pathname: link, query: { name, guide, description } }}>
         <Button colorScheme="teal" mr={3}>
-          That's it
+          Yes
         </Button>
       </Link>
     );
