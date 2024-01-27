@@ -24,7 +24,7 @@ const Select: NextPage = () => {
   return (
     <>
       <Head>
-        <title>选取牌阵</title>
+        <title>Select Decks | Tarot | Kabastro</title>
       </Head>
       <Flex align="center" justify="center" w="100%">
         <Flex align="center" justify="center" w={spreadListWidth} direction="column">

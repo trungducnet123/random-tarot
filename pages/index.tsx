@@ -21,7 +21,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>随机塔罗抽牌器</title>
+        <title>Draw your Tarot cards for free | Kabastro</title>
       </Head>
       <Flex height={"90vh"} direction="column" justify="center" align="center" gap={isMobile? "100px" : undefined}>
         <Box>
@@ -40,11 +40,11 @@ const Home: NextPage = () => {
         </Box>
         <HStack gap={5}>
           <Button size={"lg"} colorScheme={"black"} variant={"outline"} onClick={toggleColorMode}>
-            {colorMode === "light" ? "深色" : "浅色"}模式
+            {colorMode === "light" ? "Dark" : "Light"}Mode
           </Button>
           <Link href="/select">
             <Button mt={50} colorScheme="teal" size="lg">
-              现在开始
+              Draw your Tarot cards
             </Button>
           </Link>
         </HStack>
