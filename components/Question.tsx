@@ -72,7 +72,7 @@ export default function Question({
               {!isError ? (
                 <FormHelperText>Remember to say the question silently in your mind as you draw the cards.</FormHelperText>
               ) : (
-                <FormErrorMessage>请输入问题</FormErrorMessage>
+                <FormErrorMessage>Please enter a question</FormErrorMessage>
               )}
             </FormControl>
           </ModalBody>

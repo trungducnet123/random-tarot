@@ -13,6 +13,9 @@ a {
 * {
   box-sizing: border-box;
 }
+.css-8atqhb {
+    text-transform: capitalize;
+}
 font {
     text-transform: capitalize;
 }
