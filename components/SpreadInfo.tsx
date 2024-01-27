@@ -37,7 +37,7 @@ export default function SpreadInfo({
     confirmButton = (
       <Link href={{ pathname: link, query: { name, guide, description } }}>
         <Button colorScheme="teal" mr={3}>
-          就它了
+          That's it
         </Button>
       </Link>
     );
@@ -64,12 +64,12 @@ export default function SpreadInfo({
           {guide ? (
             <VStack align={"flex-start"} padding={"2em"}>
               <Img objectFit="contain" src={guide}></Img>
-              <Heading fontSize="lg">简介: </Heading>
+              <Heading fontSize="lg">Introduction: </Heading>
               <Text>{description}</Text>
             </VStack>
           ) : (
             <VStack align={"flex-start"} padding={"2em"}>
-              <Heading fontSize="lg">简介: </Heading>
+              <Heading fontSize="lg">Introduction: </Heading>
               <Text>{description}</Text>
             </VStack>
           )}
@@ -82,7 +82,7 @@ export default function SpreadInfo({
             _active={{ bg: buttonActiveColor }}
             onClick={onClose}
           >
-            关闭
+            Close
           </Button>
         </ModalFooter>
       </ModalContent>

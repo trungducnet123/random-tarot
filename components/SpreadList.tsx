@@ -147,7 +147,7 @@ export default function SpreadList() {
         <Input
           value={searchText}
           onChange={handleInputChange}
-          placeholder="搜索牌阵"
+          placeholder="Search decks"
           onKeyUp={onKeyup}
         />
         <IconButton

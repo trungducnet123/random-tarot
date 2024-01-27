@@ -75,7 +75,7 @@ const CommonBackground = ({
   return (
     <>
       <Head>
-        <title>占卜</title>
+        <title>Divination | Kabastro</title>
       </Head>
 
       <Flex minHeight={windowHeight} direction={"column"}>
@@ -125,7 +125,7 @@ const CommonBackground = ({
         <DrawerOverlay />
         <DrawerContent bgColor={bgColor}>
           <DrawerCloseButton />
-          <DrawerHeader>选择牌阵</DrawerHeader>
+          <DrawerHeader>Choose deck</DrawerHeader>
           <DrawerBody p={0}>
             <SpreadList />
           </DrawerBody>

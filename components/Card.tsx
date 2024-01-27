@@ -105,15 +105,15 @@ function Card({
                 src={cards[index].link}
               ></Img>
               <VStack align="flex-start">
-                <Heading fontSize="lg">简介: </Heading>
+                <Heading fontSize="lg">Introduction: </Heading>
                 <Text>{cards[index].description}</Text>
-                <Heading fontSize="lg">正位: </Heading>
+                <Heading fontSize="lg">Upright position: </Heading>
                 <Text>{cards[index].normal}</Text>
-                <Heading fontSize="lg">逆位: </Heading>
+                <Heading fontSize="lg">Reversed: </Heading>
                 <Text>{cards[index].reversed}</Text>
-                <Heading fontSize="lg">详细介绍: </Heading>
+                <Heading fontSize="lg">Detailed introduction: </Heading>
                 <Link href={cards[index].detail} isExternal>
-                  点此查看
+                  Click here to view
                   <ExternalLinkIcon mx="2px" />
                 </Link>
               </VStack>
@@ -121,7 +121,7 @@ function Card({
           </ModalBody>
           <ModalFooter>
             <Button variant="ghost" onClick={closeInfo}>
-              关闭
+              Close
             </Button>
           </ModalFooter>
         </ModalContent>

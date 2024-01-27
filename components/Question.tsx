@@ -59,7 +59,7 @@ export default function Question({
       >
         <ModalOverlay />
         <ModalContent bg={bgColor}>
-          <ModalHeader>请输入你要占卜的问题</ModalHeader>
+          <ModalHeader>Please enter the question you want to divine</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <FormControl isInvalid={isError}>
@@ -70,7 +70,7 @@ export default function Question({
                 onKeyUp={handleKeyUp}
               />
               {!isError ? (
-                <FormHelperText>记得抽牌时在心里默念问题。</FormHelperText>
+                <FormHelperText>Remember to say the question silently in your mind as you draw the cards.</FormHelperText>
               ) : (
                 <FormErrorMessage>请输入问题</FormErrorMessage>
               )}
@@ -83,7 +83,7 @@ export default function Question({
               _hover={{ bgColor: buttonHoverColor }}
               _active={{ bgColor: buttonActiveColor }}
             >
-              确定
+              Sure
             </Button>
           </ModalFooter>
         </ModalContent>
